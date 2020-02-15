@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Frisco
 
 App promotion themed template for Jekyll. Browse through a [live demo](https://brave-submarine.cloudvent.net/).
