@@ -6,7 +6,7 @@ left_links:
   - name: Contact
     link: /contact/
   - name: CV
-    link: /cv/
+    link: /cv.pdf
 right_links:
   - name:
     link: https://facebook.com/cloudcannon
