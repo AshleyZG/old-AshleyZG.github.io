@@ -21,7 +21,7 @@ We propose a new task and accompanying dataset for classifying code snippets as 
 
 ## Model 
 
-<!-- ![Model](https://tva1.sinaimg.cn/large/0082zybply1gbyb6luz08j30x80u0wlm.jpg) -->
+![Model](https://tva1.sinaimg.cn/large/0082zybply1gbyb6luz08j30x80u0wlm.jpg)
 
 CORAL is a model for learning neural representations of data science code snippets and classifying them as stages in the data analysis process.CORAL leverages both source code abstract syntax trees (ASTs) and associated natural language annotations in markdown text.It then learns a representation of code and markdown using the masked self-attention mechanism of [Transformers](http://papers.nips.cc/paper/7181-attention-is-all-you-need.pdf).To compensate for sparse labels, we combine weak supervision and unsupervised representation learning.For weak supervision, we use only five simple heuristics supplied by researchers, which provide weak labels to about 20\% of the cells in the training corpus. We also apply an unsupervised training objective akin to topic modeling, which seeks to reconstruct the cell embedding from the lower-dimensional cell topic distribution.
 
